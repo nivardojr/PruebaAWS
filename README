@@ -1,0 +1,24 @@
+Endpoints:
+
+POST (create) 
+
+URL: https://ziikl54ebg.execute-api.us-east-1.amazonaws.com/desarrollo
+body/raw:
+{
+    "estado":"activo"
+}
+---------------------------------------------------------------------------------
+GET (read)
+URL: https://ziikl54ebg.execute-api.us-east-1.amazonaws.com/desarrollo
+---------------------------------------------------------------------------------
+PUT (update)
+URL: https://ziikl54ebg.execute-api.us-east-1.amazonaws.com/desarrollo
+
+body/raw:
+{
+    "id_estado": 10,
+    "estado": "null"
+}
+---------------------------------------------------------------------------------
+DEL (delete)
+URL: https://ziikl54ebg.execute-api.us-east-1.amazonaws.com/desarrollo?id_estado=10
